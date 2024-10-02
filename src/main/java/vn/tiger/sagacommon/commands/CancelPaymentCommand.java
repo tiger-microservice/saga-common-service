@@ -1,8 +1,7 @@
 package vn.tiger.sagacommon.commands;
 
-import org.axonframework.modelling.command.TargetAggregateIdentifier;
-
 import lombok.Value;
+import org.axonframework.modelling.command.TargetAggregateIdentifier;
 
 @Value
 public class CancelPaymentCommand {
