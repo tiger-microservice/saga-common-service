@@ -1,8 +1,8 @@
 package vn.tiger.sagacommon;
 
-import org.springframework.context.annotation.Import;
-
 import java.lang.annotation.*;
+
+import org.springframework.context.annotation.Import;
 
 @Documented
 @Target({ElementType.TYPE})

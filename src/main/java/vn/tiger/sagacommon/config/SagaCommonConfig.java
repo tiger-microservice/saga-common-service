@@ -1,11 +1,12 @@
 package vn.tiger.sagacommon.config;
 
-import com.thoughtworks.xstream.XStream;
 import org.axonframework.serialization.Serializer;
 import org.axonframework.serialization.xml.XStreamSerializer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
+
+import com.thoughtworks.xstream.XStream;
 
 @Configuration
 public class SagaCommonConfig {
